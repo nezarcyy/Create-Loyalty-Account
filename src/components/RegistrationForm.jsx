@@ -260,7 +260,7 @@ const RegistrationForm = () => {
               </div>
               <button
                 type="submit"
-                className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-[#80C378] text-gray-50 hover:bg-[#72a86c] h-10 py-2 w-full"
+                className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-[#37A7DE] text-gray-50 hover:bg-[#2b7aa1] h-10 py-2 w-full"
               >
                 Validate
               </button>
