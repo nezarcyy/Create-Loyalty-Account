@@ -52,7 +52,7 @@ const RegistrationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setRefreshToken(!refreshToken);
-    await showLoader(setIsSubmittingForm, 3000); // Show loader for 2 seconds
+    await showLoader(setIsSubmittingForm, 4000); // Show loader for 2 seconds
 
     try {
       const data = {
@@ -97,7 +97,7 @@ const RegistrationForm = () => {
     if (!otp.every(digit => digit !== '')) {
       return; 
     }
-    await showLoader(setIsValidatingOtp, 3000);
+    await showLoader(setIsValidatingOtp, 4000);
 
     try {
       const data = {
